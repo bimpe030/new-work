@@ -1,0 +1,42 @@
+.lovely{
+    width: 35%;
+    margin: 40px auto;
+    padding: 90px 65px 0px 65px;
+    background-image: linear-gradient( #ffc080, #f56a98, #ED2B33FF);
+    border-radius: 20px;
+}
+body{
+    background: linear-gradient( rgba(4,9,30,0.5), rgba(4,9,30,0.5)), url("./images/bg-01.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.hope i{
+position: absolute;
+color: white;
+}
+
+#user::placeholder{
+    color: white;
+}
+
+.icon{
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+.form-control{
+    padding-left: 35px;
+}
+
+.btn{
+    border-radius: 40px;
+    padding: 15px 45px;
+}
+
+@media screen and (max-width: 700px){
+    .lovely{
+        width: fit-content;}
+}
