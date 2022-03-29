@@ -10,7 +10,6 @@ body{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 0px 20px;
 }
 
 .hope i{
@@ -40,4 +39,9 @@ color: white;
 @media screen and (max-width: 700px){
     .lovely{
         width: fit-content;}
+
+    body{
+        
+    padding: 0px 20px;
+    }
 }
