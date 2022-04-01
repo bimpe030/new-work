@@ -36,6 +36,10 @@ color: white;
     padding: 15px 45px;
 }
 
+a{
+    text-decoration: none;
+}
+
 @media screen and (max-width: 700px){
     .lovely{
         width: fit-content;}
