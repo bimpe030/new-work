@@ -52,6 +52,25 @@
 
 }
 
+.board{
+    width: 100px;
+    height: 1px;
+    background-color: #ddd;
+    margin: auto;
+}
+
+.bg-primary{
+    background-image: linear-gradient(to right top, rgb(3, 102, 250), rgb(97, 151, 231));
+}
+
+.bg-danger{
+    background-image: linear-gradient(to right top, rgb(230, 17, 38), rgb(247, 136, 147));
+}
+
+.bg-warning{
+    background-image: linear-gradient(to right top, rgb(255, 193, 7), rgb(250, 221, 133));
+}
+
 @media screen and (max-width: 700px){
     .stage{
         flex-direction: column;
@@ -61,6 +80,7 @@
 @media screen and (max-width: 991px){
     .stage_2{
         top: 80%;
+        height: 23% !important;
     }
 }
 
